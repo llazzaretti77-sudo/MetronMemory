@@ -1,0 +1,19 @@
+- [Utente](utente-lino.md) — sviluppatore BDM Moretti, italiano, "Metron" = ambiente 3D, testa lui in BDM
+- [Piano scrivania profilo](piano-scrivania-profilo.md) — stato dell'elemento (fronte SG20 parametrico + raggio R), stampa di produzione comune libero/profilo, piano ad angolo con 4 orientamenti (da provare), generatori in _generatori_profilo\
+- [Lezioni tecniche BDM](bdm-lezioni-tecniche.md) — a/b*c = a/(b*c)!, VAR_VALUE_SET non aggiornato, array con indice variabile, punti doppi, EXITSUB, Check/Button dialog, PowerShell
+- [Guida al linguaggio BDM](guida-linguaggio-bdm.md) — PDF 29 pag. in D:\metron\DocPerLino, con versione .txt consultabile; sommario dei capitoli
+- [Verifica prezzi listino](verifica-prezzi-listino.md) — PDF Camerette 2026 vs Metron: come leggere PDF cifrato, prezzi in MorettiSap, DebugPrezzi
+- [File BDM ANSI: mai Edit/Write](bdm-file-ansi-no-edit.md) — Edit/Write distruggono gli accenti cp1252; riparati Moretti.bdm/Armadio.inc/Cabina.inc; copie in Bdm\ ancora rovinate
+- [Mai scrivere nel metron.ini](no-metron-ini.md) — output/debug su file nuovi con FILE_APPEND
+- [SAP: aggiornare DELTALST via BAPI](sap-bapi-classificazione.md) — report ZUPD_DELTALST (classe UTILITY/300), trappola VALUE_NEUTRAL, trasportato in produzione, da fare lancio reale 88 codici
+- [Dialog user friendly](dialog-user-friendly.md) — wizard visuali con disegno quotato e bollini, niente tabelle tecniche
+- [Diagnosi errori SAP degli .ord](diagnosi-errori-sap-ord.md) — CFG_IS_INCONSISTENT_OR_INCOMPLETE: causa (FINLET/FNP mancanti), strumento diagnosi_ord.bat, cosa non funziona in SAP (BAPI nuda, trasporti, MOS senza anagrafiche)
+- [SAP: modifiche minime](sap-modifiche-minime.md) — Lino non vuole toccare/duplicare Z_SD_BAPI_SALESORDER_CHANGE; strumenti automatici; dire cosa si tocca
+- [Fuori misura Zt 604](fuori-misura-zt-604.md) — frontale 22: BREIT SAP 600→604 (209 codici), fix ArmadioBattente Diff_Z_Zt=24, elenchi in controlli\
+- [Ripiano Prod doppio cabine](ripiano-prod-doppio-cabine.md) — prezzi cabine +96/+192: figlio RipianoProd con radice senza CodVendita padre, risolto 28/10
+- [Mensola sottoponte vano 1](mensola-sottoponte-vano1.md) — B01380 PonteAngolo2024SxDx: regola lunghezza/posizione, risolto 29/10
+- [Anta ang battente e fm profondita](anta-ang-battente-fm-profondita.md) — PosAnAng Verso -1 ConMod 3 non da X_VanoInt, risolto 30/10; 4060 da valutare
+- [Cassettiera Arm3 2o modulo sospeso](cassettiera-arm3-secondo-modulo-sospeso.md) — vano non proposto per fondo lungo che lo accettava in query 2, risolto 30/10
+- [Documentazione HOMAG BAZ 32/50/G](homag-baz32-documentazione.md) — CD in D:\HOMAG, raggi bordatore (int 50 / est 25), refilatore, giunzione 250 mm
+- [Pannello sagomato](pannello-sagomato.md) — PannelloSagomato fase 1 ok; editor esterno Tab\exe\EditorSagoma.exe (sagoma LIBERA, 32 punti, regole BAZ in EditorSagoma.ini, raccordi tangenti accanto alle curve, .mpr woodWOP) da provare in Metron
+- [GitHub SagomeMetron](github-sagomemetron.md) — repo privato solo dell'editor (mai il BDM), docs al posto della wiki, push dal terminale dell'app
