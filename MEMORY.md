@@ -17,3 +17,4 @@
 - [Documentazione HOMAG BAZ 32/50/G](homag-baz32-documentazione.md) — CD in D:\HOMAG, raggi bordatore (int 50 / est 25), refilatore, giunzione 250 mm
 - [Pannello sagomato](pannello-sagomato.md) — PannelloSagomato fase 1 ok; editor esterno Tab\exe\EditorSagoma.exe (sagoma LIBERA, 32 punti, regole BAZ in EditorSagoma.ini, raccordi tangenti accanto alle curve, .mpr woodWOP) da provare in Metron
 - [GitHub SagomeMetron](github-sagomemetron.md) — repo privato solo dell'editor (mai il BDM) + MetronMemory = questa memoria (commit e push dopo ogni aggiornamento)
+- [Mensola personalizzata](mensola-personalizzata.md) — MensolaProfilo da forme listino SM10..SM22: incavi, raggi, supporti, pannello MQ; da provare in Metron
