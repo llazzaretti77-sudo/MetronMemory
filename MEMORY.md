@@ -16,4 +16,4 @@
 - [Cassettiera Arm3 2o modulo sospeso](cassettiera-arm3-secondo-modulo-sospeso.md) — vano non proposto per fondo lungo che lo accettava in query 2, risolto 30/10
 - [Documentazione HOMAG BAZ 32/50/G](homag-baz32-documentazione.md) — CD in D:\HOMAG, raggi bordatore (int 50 / est 25), refilatore, giunzione 250 mm
 - [Pannello sagomato](pannello-sagomato.md) — PannelloSagomato fase 1 ok; editor esterno Tab\exe\EditorSagoma.exe (sagoma LIBERA, 32 punti, regole BAZ in EditorSagoma.ini, raccordi tangenti accanto alle curve, .mpr woodWOP) da provare in Metron
-- [GitHub SagomeMetron](github-sagomemetron.md) — repo privato solo dell'editor (mai il BDM), docs al posto della wiki, push dal terminale dell'app
+- [GitHub SagomeMetron](github-sagomemetron.md) — repo privato solo dell'editor (mai il BDM) + MetronMemory = questa memoria (commit e push dopo ogni aggiornamento)
