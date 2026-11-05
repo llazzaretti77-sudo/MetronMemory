@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 02340508-0c2b-4bab-8e26-cf2a84e0c759
-  modified: 2026-11-03T17:06:45.750Z
+  modified: 2026-11-05T15:03:43.482Z
 ---
 
 Richiesta di Lino (2026-11-03): wizard per creare una MENSOLA PERSONALIZZATA partendo dalle mensole del listino (pag. 596-600, supporti pag. 601) con incavi (scassi) e raggi modificabili e scelta dei supporti. Generato il 2026-11-03, NON ancora provato in Metron; l'elemento va aggiunto al catalogo da Lino (voce nuova "Mensola personalizzata", il wizard si apre all'inserimento e poi con "Configura...").
@@ -22,3 +22,4 @@ ATTENZIONE: gen_profilo.ps1 e' condiviso con il pannello sagomato della sessione
 Vedi [[piano-scrivania-profilo]], [[dialog-user-friendly]], [[bdm-lezioni-tecniche]].
 
 PROVA 1 (2026-11-04): pulsanti fuori dalle dialog -> Mensola_1 alta 650, Mensola_2 610 (patch_mensola_dlg_alte.ps1); WINGS spostato di 7,1 in Z. Da riprovare.
+Supporti e incavi (2026-11-05, richiesta di Lino): MnSpostaSupp (in wizard_mensola.txt, chiamata da MnPosaSupp) calcola PfRientri nell'elemento principale (NE + tabella E* aggiunte alle variabili da mensola_els.ps1) e, se il supporto non cade su un lato dritto del muro (z=0, o x=0/X per il muro laterale), lo porta nel tratto libero piu' vicino a max(mn_off, raggio dello spigolo) dal bordo = "subito dopo lo scanso". Lino ha detto che ci sono "varie scelte", questa e' la prima: le altre (es. ridistribuire sul tratto libero, scelta nel wizard) sono da definire con lui. Non provato in Metron.
